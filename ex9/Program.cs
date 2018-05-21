@@ -24,12 +24,9 @@ namespace ex9
             }
             int numberLength = 0;
             int indexValue = 0;
-            //int numberLength1 = 0;
             int counter = 1;
             int maxcounter = 0;
             int maxcounterend = 0;
-
-
             for (int i = 0; i < myarray.Length - 1; i++)
             {
                 while (myarray[i] == myarray[i + 1])
@@ -46,11 +43,7 @@ namespace ex9
                 counter = 1;
             }
             Console.WriteLine("Counter {0}, start {1}, end {2}", maxcounter, maxcounterend - maxcounter + 1, maxcounterend);
-
-
-
             Console.WriteLine("Count length {0}", numberLength);
-
             Console.ReadLine(); 
         }
     }

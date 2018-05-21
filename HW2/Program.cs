@@ -10,7 +10,7 @@ namespace HW2
     {
         static void Main(string[] args)
         {
-            //Найти номер и значение первого положительного элемента массива.
+            //Найти номер и значение первого положительного элемента массива.//
             Console.WriteLine("Vedi dleny masiva ");
             int masslength = Convert.ToInt32(Console.ReadLine());
             int[] myarray = new int[masslength];
